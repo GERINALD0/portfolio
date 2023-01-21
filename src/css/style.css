@@ -1,0 +1,53 @@
+.cabecalho{
+    background-color: rgb(99, 2, 99);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -5px 5px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.menu{
+    margin-right: 20px;
+}
+
+.menu a{
+    color: rgb(245, 240, 244);
+    margin:15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu a::before{
+    content: "";
+    background-color: rgb(111, 223, 130);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#botao{
+    background-color: rgb(223, 111, 154);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    
+}
+
+nav a:hover{
+    background-color: rgb(210, 132, 247);
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 1px;
+}
+
+#botao:hover{
+    background-color: rgb(210, 132, 247);
+    color: rgb(0, 0, 0);
+}
