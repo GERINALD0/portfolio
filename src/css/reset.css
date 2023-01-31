@@ -5,4 +5,10 @@
     text-decoration: none;
     box-sizing: border-box;
     vertical-align: baseline;
+    border: none;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    background-color: rgb(206, 204, 204);
 }

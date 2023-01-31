@@ -6,16 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio</title>
         
-        
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">       
         
         <link rel="stylesheet" href="src/css/reset.css">
-
         <link rel="stylesheet" href="src/css/title.css">
-        
-        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/button.css">
+        <link rel="stylesheet" href="src/css/header.css">
 
     </head>
     <body>
@@ -29,12 +26,27 @@
                 <a href="">Projetos</a>
                 <a href="">Sobre</a>
                 <a href="">Contato</a>
-                <a id="button" href="">Download CV</a>
+                
+                <button class="button" >
+                    <a class="download" href="src/imagens/Currículo.pdf" download="curriculo" type="aplication/pdf">Download CV</a>
+                </button>
             </nav>
         </header>
 
         <main>
-            <h1>Gerinaldo Cruz</h1>     
+            <section>
+                <div class="box">
+                    <h1 class="title">Gerinaldo Cruz</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
+                </div>
+                
+                <button class="button">
+                    <a class="download" href="src/imagens/Currículo.pdf" download="curriculo" type="application/pdf">Download CV</a>
+                </button>
+                <button class="button">Contato</button>
+
+            </section>
+            
         </main>
     </body>
 </html>
