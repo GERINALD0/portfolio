@@ -1,13 +1,18 @@
 
-
 .header{
     background:linear-gradient(45deg, rgb(21, 31, 48), rgb(16, 55, 120), rgb(5, 147, 163));
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 5px;
     font-family: 'Open Sans', sans-serif;
+   
+    max-width: 1200px;
+    width: 1200px;
     padding: 10px 20px;
+   
+    position: fixed;
+    top: 0;
+    left: calc(50% - 600px);
 }
 
 .logo{
@@ -21,7 +26,8 @@
 .menu a{
     color: rgb(245, 240, 244);
     margin:15px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .menu a:hover{
@@ -30,5 +36,4 @@
     padding: 3px;
     border-radius: 1px;
 }
-
 

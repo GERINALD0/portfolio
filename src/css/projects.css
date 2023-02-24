@@ -1,0 +1,30 @@
+.projects-container{
+    background: linear-gradient(rgb(104, 5, 66), rgb(0, 0, 0)70%);
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: 5px auto;
+}
+
+.title-projects{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px #000000;
+    padding: 50px 0;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects a img{
+    width: 200px;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48) ease-in-out;
+}
+.projects a img:hover{
+    transform: scale(1.1);
+}

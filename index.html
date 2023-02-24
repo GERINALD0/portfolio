@@ -10,10 +10,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">       
         
         <link rel="stylesheet" href="src/css/reset.css">
-        <link rel="stylesheet" href="src/css/title.css">
-        <link rel="stylesheet" href="src/css/button.css">
         <link rel="stylesheet" href="src/css/header.css">
-
+        <link rel="stylesheet" href="src/css/banner.css">
+        <link rel="stylesheet" href="src/css/skills.css">
+        <link rel="stylesheet" href="src/css/projects.css">
+        
     </head>
     <body>
         <header class="header">
@@ -22,30 +23,100 @@
             </a>
 
             <nav class="menu">
-                <a href="">Skills</a>
-                <a href="">Projetos</a>
-                <a href="">Sobre</a>
-                <a href="">Contato</a>
-                
+                <a href="#">Skills</a>
+                <a href="#">Projetos</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
                 <button class="button" >
-                    <a class="download" href="src/imagens/Currículo.pdf" download="curriculo" type="aplication/pdf">Download CV</a>
+                    <a class="download" href="src/imagens/Currículo.pdf" download="curriculo-gerinaldo" type="aplication/pdf">Download CV</a>
                 </button>
+                  
             </nav>
         </header>
 
         <main>
-            <section>
-                <div class="box">
-                    <h1 class="title">Gerinaldo Cruz</h1>
-                    <h2 class="subtitle">FrontEnd Developer</h2>
+            <section class="banner">
+                <div class="wrapper">
+                    <div class="box">
+                        <h1 class="title">Gerinaldo Cruz</h1>
+                        <h2 class="subtitle">FrontEnd Developer</h2>
+                    </div>
+                    <div class="button-container">
+                        <button class="button">
+                            <a class="download" href="src/imagens/Currículo.pdf" download="curriculo-gerinaldo" type="application/pdf">Download CV</a>
+                        </button>
+                        <button class="button">Contato</button>              
+                    </div>
                 </div>
-                
-                <button class="button">
-                    <a class="download" href="src/imagens/Currículo.pdf" download="curriculo" type="application/pdf">Download CV</a>
-                </button>
-                <button class="button">Contato</button>
-
             </section>
+            
+            <section class="skill-container">        
+                <h2 class="title-skill">Skills</h2>
+                
+                <div class="wrapper-skill">
+                    <article class="skill">
+                        <img src="./src/imagens/html5.png" alt="logo html">
+                        
+                        <div class="progress-container">
+                            <h3 class="title">HTML</h3>
+                        
+                            <progress class="progress-bar" value="70" max="100">70%</progress>
+                        </div>
+                    </article>    
+                    <article class="skill">
+                        <img src="./src/imagens/css-3.png" alt="logo css">
+                        
+                        <div class="progress-container">
+                            <h3 class="title">CSS</h3>
+                        
+                            <progress class="progress-bar" value="70" max="100">70%</progress>
+                        </div>
+                    </article>    
+                    <article class="skill">
+                        <img src="./src/imagens/javascript.png" alt="logo javascript">
+                        
+                        <div class="progress-container">
+                            <h3 class="title">JAVASCRIPT</h3>
+                        
+                            <progress class="progress-bar" value="70" max="100">70%</progress>
+                        </div>
+                    </article>    
+                    <article class="skill">
+                        <img src="./src/imagens/react.png" alt="logo react">
+                        
+                        <div class="progress-container">
+                            <h3 class="title">REACT</h3>
+                        
+                            <progress class="progress-bar" value="70" max="100">70%</progress>
+                        </div>
+                    </article>
+                </div>        
+            </section>
+
+            <section class="projects-container">
+                <h2 class="title-projects">Projetos</h2>
+                
+                <div class="projects">
+                    <div class="">
+                        <a href="file:///C:/Users/Groxo/Documents/Projetos/PROJETOS%20PRONTOS/landing-page-com-grid-agencia-xyz-main/index.html" target="_blank">
+                            <img src="src/imagens/landung-page.png" alt="projeto landing-page">
+                        </a>        
+                    </div>
+
+                    <div class="">
+                        <a href="https://gerinald0.github.io/PROJETO-POKEMON/" target="_blank">
+                            <img src="src/imagens/pokebola.png" alt="projeto pokemon">
+                        </a>        
+                    </div>
+
+                    <div class="">
+                        <a href="file:///C:/Users/Groxo/Documents/Projetos/PROJETOS%20PRONTOS/barbearia/loja.html/index.html" target="_blank">
+                            <img src="src/imagens/logo-barbearia.png" alt="projeto barbearia">
+                        </a>        
+                    </div>
+                </div>    
+            </section>
+
             
         </main>
     </body>
