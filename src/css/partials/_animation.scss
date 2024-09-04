@@ -1,0 +1,43 @@
+.bg-home-rect1, .bg-home-rect2, .bg-home-rect3, 
+.bg-home-rect4, .bg-home-rect5, .bg-home-rect6, 
+.bg-home-rect7, .bg-home-rect8, .bg-home-rect9, 
+.bg-home-rect10 {
+    -webkit-animation: bg-home-rect1 3s ease infinite alternate;
+    animation: bg-home-rect1 3s ease infinite alternate;
+    
+}
+
+.bg-home-rect2, .bg-home-rect10 {
+    animation-delay: .3s;
+}
+
+.bg-home-rect3 {
+    animation-delay: .8s;
+}
+
+.bg-home-rect4 {
+    animation-delay: 1.3s;
+}
+
+.bg-home-rect5 {
+    animation-delay: 1.8s;
+}
+
+.bg-home-rect6 {
+    animation-delay: 2.3s;
+}
+
+.bg-home-rect7 {
+    animation-delay: 2.8s;
+}
+
+.bg-home-rect8 {
+    animation-delay: 3.3s;
+}
+
+@keyframes bg-home-rect1 {
+    to {
+        -webkit-transform: translate3d(0, 30px, 0);
+        transform: translate3d(0, 30px, 0);
+    }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500;600;700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/svg-inject.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar-mobile">
+            <div class="menu-hamburger" id="menu-hamburger"></div>
+            <div class="logo">
+                <a href="">
+                    <img src="src/svg/logo-gc.svg" alt="logo" onload="SVGInject(this)">
+                </a>
+            </div>
+        </nav>
+        
+        <nav class="navbar-desktop">
+            <div class="navbar-desktop-item-1">
+                <div class="logo">
+                    <a href="">
+                        <img src="src/svg/logo-gc.svg" alt="logo" onload="SVGInject(this)">
+                    </a>
+                </div>
+            </div>
+
+            <div class="navbar-desktop-item-2">
+                <ul class="menu-desktop">
+                    <li class="menu-item">
+                        <a href="" class="nav-link-desktop">Sobre</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                        <a href="" class="nav-link-desktop">Habilidades</a>
+                    </li>
+                    
+                    <li class="menu-item">
+                        <a href="" class="nav-link-desktop">Projetos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="src/files/CV-Gerinaldo Cruz dos Santos.docx" dowload="CV-Gerinaldo" class="btn">Download CV</a>
+        </nav>
+
+        <nav class="menu-mobile" id="menu-mobile">
+            <ul class="nav-list-mobile">
+                <li><a href="" class="nav-link-mobile">Sobre</a></li>
+                <li><a href="" class="nav-link-mobile">Habilidades</a></li>
+                <li><a href="" class="nav-link-mobile">Projetos</a></li>
+                <li><a href="" class="nav-link-mobile">Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="bg-home">
+        <img src="src/svg/bg-home.svg" class="svg-bg-home" onload="SVGInject(this)">
+    </div>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Gerinaldo Cruz</h1>
+            <h2>Desenvolvedor front end</h2>
+        </section>
+
+        <section class="container-about flex">
+            <div class="developer">
+                <img class="image-developer" src="src/image/developer.png" alt="">
+
+                <div class="square-1"></div>
+                <div class="square-2"></div>
+                <div class="square-3"></div>
+                <div class="square-4"></div>
+                <div class="square-5"></div>
+            </div>
+            <div class="adout-me">
+                <h2>Sobre mim</h2>
+                <p>
+                    Olá! Sou Gerinaldo Cruz um desenvolvedor front-end!
+                    Graduado em análise de desenvolvimento de sistemas pela 
+                    FSAA (Faculdade Santo Antônio Alagoinhas-BA). 
+                    Com um foco especial em criar interfaces de usuário que 
+                    sejam ao mesmo tempo intuitivas e funcionais, estou me dedicando 
+                    ao aprendizado de HTML, CSS, JavaScript, SASS, Git e figma, além de 
+                    explorar frameworks como React. Estou entusiasmado com as oportunidades 
+                    que a área oferece e busco contribuir com soluções inovadoras e 
+                    desafiadoras para projetos futuros.
+                </p>
+                <div class="contacts flex">
+                    <a href="https://www.linkedin.com/in/gerinaldo-cruz-989336319/" target="_blank">
+                        <img class="contact" src="src/svg/linkedin.svg" alt="linkedin" title="linkedin" onload="SVGInject(this)">
+                    </a>
+                    <a href="https://wa.me/75988931178" target="_blank">
+                        <img class="contact" src="src/svg/whatsaap.svg" alt="whatsaap" title="whatsaap" onload="SVGInject(this)">
+                    </a>
+                    <a href="https://github.com/GERINALD0" target="_blank">
+                        <img class="contact" src="src/svg/github.svg" alt="github" title="github" onload="SVGInject(this)">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-skills">
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-html.svg" alt="logo html" onload="SVGInject(this)">
+                    <span>HTML</span>
+                    <p class="description">
+                        É usada para criar e estruturar páginas da web, 
+                        definindo o conteúdo e a organização de textos, 
+                        imagens e links em um navegador.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-css.svg" alt="logo css" onload="SVGInject(this)">
+                    <span>CSS</span>
+                    <p class="description">
+                        É a linguagem que define o estilo e o layout das páginas web, controlando 
+                        cores, fontes e posicionamentos para um design atraente.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-js.svg" alt="logo javascript" onload="SVGInject(this)">
+                    <span>JAVASCRIPT</span>
+                    <p class="description">
+                        É uma linguagem de programação que adiciona interatividade e dinamismo às páginas web. 
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-git.svg" alt="logo git" onload="SVGInject(this)">
+                    <span>GIT / GITHUB</span>
+                    <p class="description">
+                        Git é um sistema de controle de versão que rastreia alterações no código, 
+                        enquanto o GitHub é uma plataforma online que hospeda repositórios Git.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-figma.svg" alt="logo figma" onload="SVGInject(this)">
+                    <span>FIGMA</span>
+                    <p class="description">
+                        O Figma é uma ferramenta colaborativa de design para criar interfaces de 
+                        usuário (UI) e protótipos, permitindo trabalho em equipe em tempo real na nuvem.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-sass.svg" alt="logo sass" onload="SVGInject(this)">
+                    <span>SASS</span>
+                    <p class="description">
+                        Sass é uma extensão do CSS que adiciona recursos como variáveis e mixins, 
+                        tornando o código mais organizado e fácil de manter.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <img class="logo-skill" src="src/svg/logo-react.svg" alt="logo sass" onload="SVGInject(this)">
+                    <span>REACT</span>
+                    <p class="description">
+                        É usada para criar e estruturar páginas da web, definindo o conteúdo 
+                        e a organização de textos, imagens e links em um navegador.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <ul class="list">
+                <li class="list-item">
+                    <h2>Projetos</h2>
+                </li>
+
+                <li class="list-item">
+                    <a href="https://gerinald0.github.io/quiz/" class="link" target="_blank">
+                        <h3>Quiz</h3>
+                    </a>
+                    <img src="src/image/quiz-project.jpg" class="img-project" alt="Imagem projeto quiz">
+                    <a class="btn-project" target="_blank" href="https://github.com/GERINALD0/quiz">Ver repositório</a>
+                    <div class="skills-project">
+                        <img class="skill-porject" src="src/svg/logo-html.svg" alt="logo html" onload="SVGInject(this)" title="HTML">
+                        <img class="skill-porject" src="src/svg/logo-css.svg" alt="logo css" onload="SVGInject(this)" title="CSS">
+                        <img class="skill-porject" src="src/svg/logo-js.svg" alt="logo js" onload="SVGInject(this)" title="Javascript">
+                    </div>
+                </li>
+
+                <li class="list-item">
+                    <a href="https://gerinald0.github.io/pokedex/" class="link" target="_blank">
+                        <h3>Cards pokemon</h3>
+                    </a>
+                    <img src="src/image/cards-pokemon-project.jpg" class="img-project" alt="Imagem projeto pokemon">
+                    <a class="btn-project" target="_blank" href="https://github.com/GERINALD0/pokedex">Ver repositório</a>
+                    <div class="skills-project">
+                        <img class="skill-porject" src="src/svg/logo-html.svg" alt="logo html" onload="SVGInject(this)" title="HTML">
+                        <img class="skill-porject" src="src/svg/logo-css.svg" alt="logo css" onload="SVGInject(this)" title="CSS">
+                        <img class="skill-porject" src="src/svg/logo-js.svg" alt="logo js" onload="SVGInject(this)" title="Javascript">
+                    </div>
+                </li>
+                 
+                <li class="list-item"> 
+                    <a href="https://gerinald0.github.io/barbearia/" class="link" target="_blank">
+                        <h3>Barbearia</h3>
+                    </a>
+                    <img src="src/image/barbershop-project.jpg" class="img-project" alt="Imagem projeto barbearia">
+                    <span>Em desenvolvimento</span>
+                    
+                    <a class="btn-project" target="_blank" href="https://github.com/GERINALD0/barbearia">Ver repositório</a>
+                    <div class="skills-project">
+                        <img class="skill-porject" src="src/svg/logo-html.svg" alt="logo html" onload="SVGInject(this)" title="HTML">
+                        <img class="skill-porject" src="src/svg/logo-css.svg" alt="logo css" onload="SVGInject(this)" title="CSS">
+                        <img class="skill-porject" src="src/svg/logo-js.svg" alt="logo js" onload="SVGInject(this)" title="Javascript">
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>

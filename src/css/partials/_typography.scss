@@ -1,0 +1,162 @@
+@mixin typeFace-1($size, $device: desktop) {
+
+    font-family: "Saira Condensed", sans-serif;
+
+    @if $size == h1 and $device == desktop {
+        font-size: 172px;
+        line-height: 100%;
+    }  @else if $size == h1 and $device == tablet {
+        font-size: 96px;
+        line-height: 110%;
+    }  @else if $size == h1 and $device == mobile {
+        font-size: 48px;
+        line-height: 120%;
+    }
+    
+
+    @if $size == h2 and $device == desktop {
+        font-size: 60px;
+        line-height: 110%;
+    }  @else if $size == h2 and $device == tablet {
+        font-size: 40px;
+        line-height: 110%; 
+    } @else if $size == h2 and $device == mobile {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    @if $size == h3 and $device == desktop {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 120%;
+    } @else if $size == h3 and $device == mobile {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    @if $size == h4 and $device == desktop {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 120%;
+    } @else if $size == h4 and $device == mobile {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+
+    @if $size == h5 and $device == desktop {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 120%;
+    } @else if $size == h5 and $device == mobile {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 120%;
+    }
+}
+
+
+@mixin typeFace-2($size, $device: desktop) {
+
+    font-family: "Sora", sans-serif;
+
+    @if $size == p and $device == desktop {
+        font-size: 16px;
+        line-height: 140%;
+    } @else if $size == p and $device == mobile {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    @if $size == span and $device == desktop {
+        font-size: 16px;
+        line-height: 140%;
+    } @else if $size == span and $device == mobile {
+        font-size: 14px;
+        line-height: 150%;
+    }
+}
+
+
+
+
+h1 {
+    font-weight: 500;
+    color: $white;
+    @include typeFace-1(h1, desktop);
+
+    @include responsive(m) {
+        @include typeFace-1(h1, tablet);
+    }
+
+    @include responsive(s) {
+        @include typeFace-1(h1, mobile);
+    }
+}
+
+h2 {
+    color: $white-light;
+
+    @include typeFace-1(h2, desktop);
+
+    @include responsive(m) {
+        @include typeFace-1(h2, tablet);
+    }
+
+    @include responsive(s) {
+        @include typeFace-1(h2, mobile)
+    }
+}
+
+h3 {
+    color: $gray-light;
+
+    @include typeFace-1(h3, desktop);
+
+    @include responsive(s) {
+        @include typeFace-1(h3, mobile)
+    }
+}
+
+h4 {
+    color: $gray-light;
+
+    @include typeFace-1(h4, desktop);
+
+    @include responsive(s) {
+        @include typeFace-1(h4, mobile)
+    }
+}
+
+h5 {
+    color: $gray-dark;
+
+    @include typeFace-1(h5, desktop);
+
+    @include responsive(s) {
+        @include typeFace-1(h5, mobile)
+    }
+}
+
+
+
+p {
+    color: $gray;
+
+    @include typeFace-2(p, desktop);
+
+    @include responsive(s) {
+        @include typeFace-2(p, mobile)
+    }
+}
+
+span {
+    color: $gray;
+
+    @include typeFace-2(p, desktop);
+
+    @include responsive(s) {
+        @include typeFace-2(p, mobile)
+    }
+}

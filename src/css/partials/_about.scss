@@ -1,0 +1,172 @@
+.container-about {
+    max-width: $container-xl;
+    padding: 148px 64px;
+    margin: 72px auto;
+    gap: 72px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    @include responsive(m) {
+        flex-direction: column;
+        justify-content: center;
+        gap: 156px;
+        margin-top: -128px;
+    }
+
+    @include responsive(s) {
+        flex-direction: column;
+        margin-top: -198px;
+    }
+}
+
+.developer {
+    width: 245px;
+    height: 345px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    
+    .image-developer {
+        width: 300px;
+
+        @include responsive(s) {
+            width: 236px;
+        }
+    }
+}
+
+.square-1,
+.square-2, 
+.square-3, 
+.square-4, 
+.square-5 {
+    border: 8px solid;
+    position: absolute;
+    z-index: -2;
+    transform: rotate(45deg);
+    filter: blur(4px);
+}
+
+.square-2, .square-4 {
+    width: 172px;
+    height: 172px;
+
+    @include responsive(s) {
+        width: 136px;
+        height: 136px;
+    }
+}
+
+.square-3, .square-5 {
+    width: 100px;
+    height: 100px;
+
+    @include responsive(s) {
+        width: 72px;
+        height: 72px;
+    }
+}
+
+.square-1 {
+    width: 250px;
+    height: 250px;
+
+    border-image: $gradient 1;
+    top: 36px;
+    z-index: -1;
+    
+    @include responsive(s) {
+        width: 192px;
+        height: 192px;
+        top: 72px;
+    }
+}
+
+.square-2 {
+    border-image: $gradient-blue 1;
+    top: -72px;
+
+    @include responsive(s) {
+        top: -18px;
+    }
+}
+
+
+
+.square-3 {
+    border-image: $gradient-pink 1;
+    top: 10px;
+    left: 10px;
+
+    @include responsive(s) {
+        top: 64px;
+        left: 20px;
+    }
+}
+
+.square-4 {
+    border-image: $gradient-pink 1;
+    top: 220px;
+}
+
+.square-5 {
+    border-image: $gradient-blue 1;
+    top: 216px;
+    left: 136px;
+}
+
+
+.adout-me {
+    max-width: 700px;
+    padding: 32px;
+    display: flex;
+    border-radius: 16px;
+    flex-direction: column;
+
+    background: $gradient-light-blue;
+
+
+    @include responsive(m) {
+        text-align: center;
+    }
+
+    @include responsive(s) {
+        text-align: center;
+    }
+
+    p {
+        margin-top: 36px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: $white-dark;
+    }
+}
+
+.contacts {
+    justify-content: flex-start;
+    margin-top: 48px;
+
+    @include responsive(m) {
+        justify-content: center;
+    }
+
+    @include responsive(s) {
+        justify-content: center;
+    }
+
+    
+    .contact {
+        margin-right: 20px;
+        width: 46px;
+        transition: 0.5s ease;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}

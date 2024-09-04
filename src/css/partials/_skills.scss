@@ -1,0 +1,31 @@
+.container-skills {
+    max-width: $container-xl;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+.skill {
+    max-width: 336px;
+    height: 352px;
+    padding: 24px;
+
+    span {
+        display: block;
+        margin: 16px 0;
+        color: $white-dark;
+
+        font-family: "Sora", sans-serif;
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="linkedin" class="linkedin">
+<circle id="Ellipse 2" cx="23.9955" cy="23.9018" r="22.6435" stroke="url(#paint0_linear_335_167)" stroke-width="2"/>
+<path id="Vector" d="M17.3721 34H12.3964V17.9764H17.3721V34ZM14.8816 15.7907C13.2905 15.7907 12 14.4728 12 12.8817C12 12.1174 12.3036 11.3844 12.844 10.844C13.3844 10.3036 14.1174 10 14.8816 10C15.6459 10 16.3788 10.3036 16.9192 10.844C17.4596 11.3844 17.7632 12.1174 17.7632 12.8817C17.7632 14.4728 16.4721 15.7907 14.8816 15.7907ZM35.9946 34H31.0296V26.1998C31.0296 24.3409 30.9921 21.9569 28.4427 21.9569C25.8557 21.9569 25.4593 23.9766 25.4593 26.0659V34H20.4889V17.9764H25.2611V20.1622H25.3307C25.995 18.9032 27.6177 17.5746 30.0386 17.5746C35.0743 17.5746 36 20.8908 36 25.198V34H35.9946Z" stroke="url(#paint1_linear_335_167)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_335_167" x1="37.4281" y1="8.93406" x2="7.49266" y2="42.5155" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E3D49F"/>
+<stop offset="0.5" stop-color="#E3B81E"/>
+<stop offset="1" stop-color="#997C14"/>
+</linearGradient>
+<linearGradient id="paint1_linear_335_167" x1="31.1186" y1="14.0678" x2="15.2542" y2="31.8644" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E3D49F"/>
+<stop offset="0.5" stop-color="#E3B81E"/>
+<stop offset="1" stop-color="#997C14"/>
+</linearGradient>
+</defs>
+</svg>

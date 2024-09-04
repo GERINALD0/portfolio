@@ -1,0 +1,92 @@
+.list-item {
+    max-width: $container-xl;
+    margin: 0 auto;
+    padding: 24px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+   h3 {
+    color: $white-dark;
+   }
+
+   span {
+    display: block;
+    color: $alert;
+    font-weight: 300;
+    letter-spacing: 1px;
+   }
+
+   @include responsive(s) {
+    align-items: center;
+   }
+   
+}
+
+.img-project {
+    max-width: 720px;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transition: 1s ease;
+    transform: translate(-50%, -50%) translate3d(-1600px, 0, 0) skew(45deg);
+    z-index: -1;
+
+    @include responsive(xm) {
+        max-width: 620px;
+        left: 60%;
+   }
+    @include responsive(m) {
+        max-width: 420px;
+        left: 60%;
+   }
+
+    @include responsive(s) {
+            display: none;
+       }
+}
+
+.link:hover {
+    & + .img-project {
+        transform: translate(-50%, -50%) translate3d(0, 0, 0);
+    }
+}
+
+.btn-project {
+    width: 196px;
+    padding: 8px 24px;
+    border: 2px solid;
+    border-image: $gradient 1;
+
+    background: $gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+
+
+}
+
+.skills-project {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 200px;
+    padding: 8px;
+}
+
+.skill-porject {
+    height: 36px;
+}
