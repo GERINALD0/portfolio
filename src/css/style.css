@@ -369,7 +369,6 @@ a {
   width: 70%;
   height: 2px;
   transition: 1s ease;
-  background: linear-gradient(206deg, #2D61DB -4.14%, #06123A 94.3%);
 }
 .active-menu-hamburger::before {
   content: "";
@@ -379,13 +378,12 @@ a {
   width: 70%;
   height: 2px;
   transform: rotate(315deg);
-  background: linear-gradient(206deg, #2D61DB -4.14%, #06123A 94.3%);
 }
 
 .menu-mobile {
   width: 100vw;
   height: 100vh;
-  background: #EEF7FC;
+  background: #2b2b2b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,7 +406,7 @@ a {
 
 .nav-link-mobile {
   display: block;
-  color: #7C7979;
+  color: #9F9D9D;
   transition: 0.5s ease;
   padding: 16px 32px;
   position: relative;
@@ -424,12 +422,12 @@ a {
   top: 90%;
   left: 16px;
   transition: 0.7s ease;
-  background: linear-gradient(206deg, #2D61DB -4.14%, #06123A 94.3%);
+  background: linear-gradient(222deg, #E3D49F 18.55%, #E3B81E 53.73%, #997c14 88.9%);
   width: 0;
   height: 2px;
 }
 .nav-link-mobile:hover {
-  background: linear-gradient(206deg, #2D61DB -4.14%, #06123A 94.3%);
+  background: linear-gradient(222deg, #E3D49F 18.55%, #E3B81E 53.73%, #997c14 88.9%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -679,7 +677,7 @@ a {
   top: 50%;
   left: 50%;
   transition: 1s ease;
-  transform: translate(-50%, -50%) translate3d(-1600px, 0, 0) skew(45deg);
+  transform: translate(-50%, -50%) translate3d(-2000px, 0, 0) skew(45deg);
   z-index: -1;
 }
 @media (max-width: 1140px) and (min-width: 960px) {
@@ -728,6 +726,22 @@ a {
   height: 36px;
 }
 
+.logo-letter-g, .logo-letter-c {
+  animation: logo-letter-gc 4s ease infinite alternate;
+}
+
+@keyframes logo-letter-gc {
+  0% {
+    stroke-width: 2;
+    stroke-dasharray: 0 200;
+    stroke-opacity: 1;
+  }
+  60%, 100% {
+    stroke-width: 2;
+    stroke-dasharray: 200 0;
+    stroke-opacity: 1;
+  }
+}
 .bg-home-rect1, .bg-home-rect2, .bg-home-rect3,
 .bg-home-rect4, .bg-home-rect5, .bg-home-rect6,
 .bg-home-rect7, .bg-home-rect8, .bg-home-rect9,

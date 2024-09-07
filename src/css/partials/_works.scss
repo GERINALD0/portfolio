@@ -41,7 +41,7 @@
     left: 50%;
 
     transition: 1s ease;
-    transform: translate(-50%, -50%) translate3d(-1600px, 0, 0) skew(45deg);
+    transform: translate(-50%, -50%) translate3d(-2000px, 0, 0) skew(45deg);
     z-index: -1;
 
     @include responsive(xm) {

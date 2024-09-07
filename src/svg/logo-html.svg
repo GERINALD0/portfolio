@@ -1,12 +1,12 @@
 <svg width="119" height="121" viewBox="0 0 119 121" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="html">
 <g id="Group 16">
-<path id="vector-6" d="M82 120H98M96 116H104" stroke="url(#paint0_linear_422_325)" stroke-width="2" stroke-linecap="round"/>
-<circle id="vector-5" cx="114" cy="67" r="4" stroke="#ED850C" stroke-width="2"/>
-<circle id="vector-4" cx="18" cy="111" r="4" stroke="#FB3D0A" stroke-width="2"/>
-<path id="vector-3" d="M106.5 5L114 9L106 13" stroke="#F6B214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="vector-2" d="M35.95 2.15574L37.3872 4.78908M39.3035 8.3002L40.7406 10.9335M39.662 5.82605L42.2953 4.38886M37.0287 7.26324L34.3953 8.70043" stroke="#EB7009" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="vector-1" d="M3.95001 53.1557L5.3872 55.7891M7.30345 59.3002L8.74064 61.9335M7.662 56.826L10.2953 55.3889M5.02866 58.2632L2.39532 59.7004" stroke="#F45509" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="vector-6" class="vector-6" d="M82 120H98M96 116H104" stroke="url(#paint0_linear_422_325)" stroke-width="2" stroke-linecap="round"/>
+<circle id="vector-5" class="vector5-" cx="114" cy="67" r="4" stroke="#ED850C" stroke-width="2"/>
+<circle id="vector-4" class="vector-4" cx="18" cy="111" r="4" stroke="#FB3D0A" stroke-width="2"/>
+<path id="vector-3" class="vector-3" d="M106.5 5L114 9L106 13" stroke="#F6B214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="vector-2" class="vector-2" d="M35.95 2.15574L37.3872 4.78908M39.3035 8.3002L40.7406 10.9335M39.662 5.82605L42.2953 4.38886M37.0287 7.26324L34.3953 8.70043" stroke="#EB7009" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="vector-1" class="vector-1" d="M3.95001 53.1557L5.3872 55.7891M7.30345 59.3002L8.74064 61.9335M7.662 56.826L10.2953 55.3889M5.02866 58.2632L2.39532 59.7004" stroke="#F45509" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <path id="html_2" d="M24 21H107.5L100.5 103L65.5 113.5L30.5 103L24 21Z" stroke="url(#paint1_linear_422_325)" stroke-width="4" stroke-linejoin="round"/>
 <path id="html_3" d="M41 37H92L91 46H54.5V57L91 58L88.5 89L67 96L45 89L43.5 73H54.5V80L67 84.5L79.5 80C79.5 80 79.7134 72.3516 79.5 70.5C79.2866 68.6484 79.7514 67.1704 77 67C74.2486 66.8296 43.5 67 43.5 67L41 37Z" stroke="url(#paint2_linear_422_325)" stroke-width="4" stroke-linejoin="round"/>

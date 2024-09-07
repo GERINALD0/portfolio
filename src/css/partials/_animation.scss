@@ -1,3 +1,21 @@
+.logo-letter-g, .logo-letter-c {
+    animation: logo-letter-gc 4s ease infinite alternate;
+}
+
+@keyframes logo-letter-gc {
+    0% {
+        stroke-width: 2;
+        stroke-dasharray: 0 200;
+        stroke-opacity: 1;
+    }
+    60%, 100% {
+        stroke-width: 2;
+        stroke-dasharray: 200 0;
+        stroke-opacity: 1;
+    }
+}
+
+
 .bg-home-rect1, .bg-home-rect2, .bg-home-rect3, 
 .bg-home-rect4, .bg-home-rect5, .bg-home-rect6, 
 .bg-home-rect7, .bg-home-rect8, .bg-home-rect9, 
@@ -40,4 +58,8 @@
         -webkit-transform: translate3d(0, 30px, 0);
         transform: translate3d(0, 30px, 0);
     }
+}
+
+.vector-4, .vector-5 {
+    
 }

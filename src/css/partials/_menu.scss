@@ -177,9 +177,6 @@ a {
         width: 70%;
         height: 2px;
         transition: 1s ease;
-
-
-        background: $bg-header;
     }
 
     &::before {
@@ -192,14 +189,13 @@ a {
         height: 2px;
         
         transform: rotate(315deg);
-        background: $bg-header;
     }
 }
 
 .menu-mobile {
     width: 100vw;
     height: 100vh;
-    background: $white-light;
+    background: $black-light;
 
     display: flex;
     justify-content: center;
@@ -225,7 +221,7 @@ a {
 
 .nav-link-mobile {
     display: block;
-    color: $gray;
+    color: $gray-light;
     transition: .5s ease;
     padding: 16px 32px;
     position: relative;
@@ -239,14 +235,14 @@ a {
         top: 90%;
         left: 16px;
         transition: .7s ease;
-        background: $bg-header;
+        background: $gradient;
         
         width: 0;
         height: 2px;
     }
     
     &:hover {
-        background: $bg-header;
+        background: $gradient;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;

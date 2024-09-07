@@ -1,6 +1,8 @@
-const downloadCV = document.querySelector('.download-CV')
+const menuMobile = document.querySelector('.menu-mobile')
+const menuHamburger = document.querySelector('.menu-hamburger')
+const links = document.querySelectorAll('.nav-link-mobile')
 
-function scrollHeaser () {
+function scrollHeader () {
     const nav = document.getElementById('header')
 
     if(this.scrollY >= 50) {
@@ -10,7 +12,7 @@ function scrollHeaser () {
     }
 };
 
-addEventListener('scroll', scrollHeaser);
+addEventListener('scroll', scrollHeader);
 
 
 const showMenu = (changeClassId, menuId) => {
@@ -20,9 +22,17 @@ const showMenu = (changeClassId, menuId) => {
     if (changeClass && menu) {
         changeClass.addEventListener('click', () => {
             menu.classList.toggle('active-menu-mobile')
-            changeClass.classList.toggle('active-menu-hamburger')            
+            changeClass.classList.toggle('active-menu-hamburger')
+            
         })
     }
 };
 
 showMenu('menu-hamburger', 'menu-mobile');
+
+links.forEach(link => {
+    link.addEventListener('click', () => {
+        menuMobile.classList.toggle('active-menu-mobile')
+        menuHamburger.classList.toggle('active-menu-hamburger')        
+    })
+})

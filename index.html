@@ -17,7 +17,7 @@
         <nav class="navbar-mobile">
             <div class="menu-hamburger" id="menu-hamburger"></div>
             <div class="logo">
-                <a href="">
+                <a href="#home">
                     <img src="src/svg/logo-gc.svg" alt="logo" onload="SVGInject(this)">
                 </a>
             </div>
@@ -26,7 +26,7 @@
         <nav class="navbar-desktop">
             <div class="navbar-desktop-item-1">
                 <div class="logo">
-                    <a href="">
+                    <a href="#home">
                         <img src="src/svg/logo-gc.svg" alt="logo" onload="SVGInject(this)">
                     </a>
                 </div>
@@ -35,15 +35,19 @@
             <div class="navbar-desktop-item-2">
                 <ul class="menu-desktop">
                     <li class="menu-item">
-                        <a href="" class="nav-link-desktop">Sobre</a>
+                        <a href="#home" class="nav-link-desktop">Início</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#about" class="nav-link-desktop">Sobre</a>
                     </li>
                     
                     <li class="menu-item">
-                        <a href="" class="nav-link-desktop">Habilidades</a>
+                        <a href="#skills" class="nav-link-desktop">Habilidades</a>
                     </li>
                     
                     <li class="menu-item">
-                        <a href="" class="nav-link-desktop">Projetos</a>
+                        <a href="#projects" class="nav-link-desktop">Projetos</a>
                     </li>
                 </ul>
             </div>
@@ -53,10 +57,11 @@
 
         <nav class="menu-mobile" id="menu-mobile">
             <ul class="nav-list-mobile">
-                <li><a href="" class="nav-link-mobile">Sobre</a></li>
-                <li><a href="" class="nav-link-mobile">Habilidades</a></li>
-                <li><a href="" class="nav-link-mobile">Projetos</a></li>
-                <li><a href="" class="nav-link-mobile">Download CV</a></li>
+                <li><a href="#home" class="nav-link-mobile">Início</a></li>
+                <li><a href="#about" class="nav-link-mobile">Sobre</a></li>
+                <li><a href="#skills" class="nav-link-mobile">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link-mobile">Projetos</a></li>
+                <li><a href="src/files/CV-Gerinaldo Cruz dos Santos.docx" class="nav-link-mobile" download="CV-Gerinaldo">Download CV</a></li>
             </ul>
         </nav>
     </header>
@@ -67,12 +72,12 @@
     </div>
 
     <main class="container">
-        <section class="hero">
+        <section id="home" class="hero">
             <h1>Gerinaldo Cruz</h1>
             <h2>Desenvolvedor front end</h2>
         </section>
 
-        <section class="container-about flex">
+        <section id="about" class="container-about flex">
             <div class="developer">
                 <img class="image-developer" src="src/image/developer.png" alt="">
 
@@ -109,7 +114,7 @@
             </div>
         </section>
 
-        <section class="container-skills">
+        <section id="skills" class="container-skills">
             <h2>Habilidades</h2>
             <div class="skills">
                 <div class="skill">
@@ -138,7 +143,7 @@
                         É uma linguagem de programação que adiciona interatividade e dinamismo às páginas web. 
                     </p>
                 </div>
-
+  
                 <div class="skill">
                     <img class="logo-skill" src="src/svg/logo-git.svg" alt="logo git" onload="SVGInject(this)">
                     <span>GIT / GITHUB</span>
@@ -177,7 +182,7 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <ul class="list">
                 <li class="list-item">
                     <h2>Projetos</h2>
