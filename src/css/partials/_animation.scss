@@ -60,6 +60,32 @@
     }
 }
 
-.vector-4, .vector-5 {
-    
+.vector-1, .vector-2,.vector-3, .vector-4, .vector-5 {
+    animation: up-down 3s linear infinite alternate;
+}
+
+.vector-2, .vector-4{
+    animation-delay: .5s;
+}
+
+.vector-3 {
+    animation-delay: 1s;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translate3d(-2px, 3px, 0);
+    }
+    25% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(-2px, -3px, 0);
+    }
+    75% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-2px, 5px, 0);
+    }
 }
